@@ -1,0 +1,52 @@
+.body{
+    background-color: var(--corSecundaria);   
+    padding: 16px;
+}
+
+.formulario{
+    display: flex;
+    justify-content: space-between;
+    margin: 16px 32px;
+}
+
+.formulario_peso, .formulario_altura, .formulario_botao{
+    font-size: 24px;
+    text-align: center;
+}
+
+.formulario_botao{
+    padding: 8px;
+    cursor: pointer;
+    background-color: var(--corPrincipal);
+    border: 1px solid var(--corPrincipal);
+    border-radius: 8px;
+    color: var(--corSecundaria);
+
+    
+}
+
+.formulario_botao:hover{
+    background-color: var(--corBotaoHover);
+}
+
+.resultado{
+    background-color: var(--corSecundaria);  
+    color: var(--corTexto);
+    padding-top: 36px;
+}
+
+.resultadoValor{
+    font-size: 36px;
+    text-align: center;
+    padding: 8px 0;
+    border: 2px solid var(--corPrincipal);
+    align-items: center;
+    margin: 8px 64px;
+}
+
+.resultadoTexto{
+    font-size: 24px;
+    text-align: justify;
+    margin: 16px 64px;
+    padding-top: 16px;
+}

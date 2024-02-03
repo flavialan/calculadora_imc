@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto, sans-serif;
+}
+
+.container{
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+:root{
+    --corPrincipal: #182C61;
+    --corSecundaria: #F8EFBA;
+    --corBotaoHover: #3B3B98;
+    --corTexto: #2C3A47;
+}
